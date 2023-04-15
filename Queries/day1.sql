@@ -65,7 +65,7 @@ order by FIRST_NAME ;
 
 --get me all employess whose first name starts with C
 select * from EMPLOYEES
-where FIRST_NAME like 'C%'
+where FIRST_NAME like 'C%';
 
 --get me 5 letter first names where the middle char is z
 select * from EMPLOYEES
