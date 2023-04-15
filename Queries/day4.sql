@@ -32,5 +32,9 @@ CREATE VIEW Emaillist as select substr(FIRST_NAME,0,1)||'.'||substr(LAST_NAME,0,
 
 select * from EMAILLIST;
 
+select "full_name" from Emaillist;
+
 --to remove view
 drop view Emaillist;
+
+
