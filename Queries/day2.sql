@@ -1,0 +1,1 @@
+--get me average salary for IY_PROG
