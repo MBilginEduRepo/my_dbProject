@@ -22,7 +22,7 @@ select upper(EMAIL||'@gmail.com') as "full_email" from EMPLOYEES;
 select FIRST_NAME,length(FIRST_NAME) as "length_name" from EMPLOYEES
 order by "length_name" desc ;
 
---subst(colName,begIndex,NumberOfChar)
+--substr(colName,begIndex,NumberOfChar)
 select substr(FIRST_NAME,0,1)||'.'||substr(LAST_NAME,0,1) as "initials" from EMPLOYEES;
 
 select substr(FIRST_NAME,0,1)||'.'||substr(LAST_NAME,0,1) as "initials",FIRST_NAME||' '||LAST_NAME as "full_name",lower(EMAIL||'@gmail.com') as "full_email" from EMPLOYEES;
