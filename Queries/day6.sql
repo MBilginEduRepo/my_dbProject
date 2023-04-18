@@ -27,8 +27,8 @@ INSERT INTO ScrumTeam(emp_id, firstname, lastname, jobtitle)
 VALUES (1,'Severus','Snape','Tester');
 
 insert into ScrumTeam values (2,'Harold','Finch','Developer');
-insert into ScrumTeam values (3,'Phoebe','Buffay','Scrummaster');
-insert into ScrumTeam values (4,'Michael','Scofield','po');
+insert into ScrumTeam values (3,'Phoebe','Buffay','Scrummaster',120000);
+insert into ScrumTeam values (4,'Michael','Scofield','po',90000);
 
 
 --how to update data
@@ -50,7 +50,7 @@ WHERE Emp_ID=1;
  */
 
 DELETE FROM ScrumTeam
-WHERE Emp_ID=3;
+WHERE Emp_ID=4;
 
 commit ;
 
